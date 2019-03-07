@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+      <link rel="stylesheet" href="intro.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+      </script>
+      <script>
+      $(document).ready(function(){
+          $(".triangle").hover(function(){
+              $('.triangle').not('#' + $(this).attr('id')).toggle();
+          });
+      });
+      </script>
+    </head>
+    <body>
+
+        <center id="title"> free will </center>
+        <div id="container">
+            <a href="introduction.html">
+                <div class="triangle" id="intro">
+
+                    <span class="block-text"> introduction </span>
+                    <!-- <img src="assets/game.png" alt="image"> -->
+                </div>
+            </a>
+            <a href="game.html">
+                <div class="triangle" id="game">
+                    <!-- <img src="assets/lovealive.png" alt="image"> -->
+                    <span class="block-text"> game, game, game, and again game </span>
+                </div>
+            </a>
+            <a href="alive.html">
+                <div class="triangle" id="lovealive">
+                    <!-- <img src="" alt="image"> -->
+                    <span class="block-text"> with those we love alive </span>
+                </div>
+            </a>
+            <a href="digital.html">
+                <div class="triangle" id="digital">
+                    <span class="block-text"> digital: a love story </span>
+                    <!-- <img src="assets/digital_love.png" alt="image"> -->
+                </div>
+            </a>
+        </div>
+
+    </body>
+</html>
