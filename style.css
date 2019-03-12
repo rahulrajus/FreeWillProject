@@ -1,21 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
+li {
+    border: 3px solid black;
+    padding: 10px;
+}
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: #7f8c8d;
+    font-size: 50;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #000;
     background-color: #FFFFFF;
     margin-top: 1em;
 }
+div {
+    position: relative;
+    top: 10%;
+}
+.triangle {
+      width: 200px;
+      height: 100px;
+      background-color: white;
+      border: 3px solid black;
+      margin: 50px;
+      text-align: center;
+      display: inline-block;
+      text-align: center;
+      line-height: 100px;
+      /* vertical-align: middle; */
+      transition: all .3s ease-in-out;
 
+
+
+      /* border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid black;
+      margin: 20px; */
+
+}
+.triangle:hover{
+        /* transform: scale(1.2); */
+    color: white;
+    background-color: black;
+
+    animation: float 3s ease-in-out infinite;
+}
 h1, h2, h3 {
-    font-family: 'Slabo 27px', serif;
+    font-size: 50;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 1em;
     color: #000;
+    display:inline-block;
+    padding: 10px;
+    top: 10%
 }
-
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
 p {
-    font-family: 'Slabo 27px', serif;
+    font-size: 10;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 1.5em;
     text-align: left;
     margin-right: 2em;
@@ -32,10 +79,36 @@ a {
     width: 80%
     margin: 0 auto;
 }
-
-header {
-    background: #55D6AA;
+#container {
+    align-items: center;
+    width: 100%;
 }
+/* #intro {
+    left: 200px + 7.5%;
+
+}
+#game {
+    left: 200px + 12.5%;
+}
+#lovealive {
+    left: 200px + 17.5%;
+}
+#digital {
+    left: 200px + 22.5%;
+}
+#facade {
+    left: 200px + 27.5%;
+} */
+.block-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+/* header {
+    background: #55D6AA;
+} */
 
 header::after {
     content:'';
