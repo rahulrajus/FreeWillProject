@@ -7,13 +7,21 @@ a { color: inherit; }
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
+
+#begin {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
 div {
-    position: absolute;
     top: 25%;
+    margin-left: 38%;
+    margin-right: 38%;
 }
 span {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: center;
+  align-self: center;
   line-height: normal;
 }
 

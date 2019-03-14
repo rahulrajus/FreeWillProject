@@ -1,114 +1,93 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-li {
-    border: 3px solid black;
-    padding: 10px;
-}
+
 body {
-    font-size: 50;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    color: #000;
-    background-color: #FFFFFF;
-    margin-top: 1em;
-}
-div {
-    position: relative;
-    top: 10%;
-}
-.triangle {
-      width: 200px;
-      height: 100px;
-      background-color: white;
-      border: 3px solid black;
-      margin: 50px;
-      text-align: center;
-      display: inline-block;
-      text-align: center;
-      line-height: 100px;
-      /* vertical-align: middle; */
-      transition: all .3s ease-in-out;
 
-
-
-      /* border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 100px solid black;
-      margin: 20px; */
-
-}
-.triangle:hover{
-        /* transform: scale(1.2); */
-    color: white;
-    background-color: black;
-
-    animation: float 3s ease-in-out infinite;
-}
-h1, h2, h3 {
-    font-size: 50;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
     font-size: 1em;
-    color: #000;
-    display:inline-block;
-    padding: 10px;
-    top: 10%
-}
-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-p {
-    font-size: 10;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+}
+
+h1, h2  {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+p {
     font-size: 1.5em;
     text-align: left;
     margin-right: 2em;
     margin-left: 3em;
-    line-height: 1.5em;
 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 a {
     color: #000;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+#freeWill{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+#fancy {
+font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#elit {
+    margin-top: 2em;
 }
 
 .container {
     width: 80%
     margin: 0 auto;
 }
-#container {
-    align-items: center;
-    width: 100%;
-}
-/* #intro {
-    left: 200px + 7.5%;
 
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  vertical-align: right;
+  position: relative;
 }
-#game {
-    left: 200px + 12.5%;
-}
-#lovealive {
-    left: 200px + 17.5%;
-}
-#digital {
-    left: 200px + 22.5%;
-}
-#facade {
-    left: 200px + 27.5%;
-} */
-.block-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 20px;
+
+button:hover {
+    background-color: #3e8e41;
 }
 
 
-/* header {
-    background: #55D6AA;
-} */
+header {
+    float: right;
+}
 
 header::after {
     content:'';
@@ -178,3 +157,66 @@ img {
 #content {
     font-size: 0.5em;
 }
+
+#dropdown {
+    float: right;
+}
+
+#banner {
+  background-color: #000;
+  color: white;
+  padding: 16px;
+  font-size: 24px;
+  font-family: 'Courier';
+  color: #18E418;
+  border: none;
+  vertical-align: left;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  vertical-align: right;
+  position: relative;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  vertical-align: right;
+  text-align: left;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
